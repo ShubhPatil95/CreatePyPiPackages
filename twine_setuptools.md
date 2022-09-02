@@ -10,7 +10,7 @@ cd mypackages
 ```
   
 ### Step2
-* Create a folders under mathpackage and move inside
+* Create a folders under mathpackage and move inside(NOTE: package name should be unique, hence make sure you are giving your unqiue name to this package. I am giving mathpackage, hence in further steps kind ensure to replace mathpackage with your package name)
 ```ruby
 mkdir mathpackage
 cd mathpackage
