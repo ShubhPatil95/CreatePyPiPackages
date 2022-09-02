@@ -35,7 +35,7 @@ def add(a,b):
  ### Step5
 * go back to mypackages
 ```ruby
-cd .. mypackages
+cd .. 
 ```
   
   ### Step6
