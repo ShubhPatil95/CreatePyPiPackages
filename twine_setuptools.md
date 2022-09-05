@@ -17,7 +17,7 @@ cd mypackagearrithmatics
 ```
   
 ### Step3
-* Create a folders below files under mypackagearrithmatics
+* Create a below files under mypackagearrithmatics
 ```ruby
 touch calculations.py __init__.py
 ```
@@ -92,7 +92,7 @@ pip install mypackagearrithmatics
 ### Step11
  * Type below line in python and see if you its printing "This is addition=> 40"
 ```ruby
-from mypackagearrithmatics calculations
+from mypackagearrithmatics import calculations
 calculations.add(20,20)
 ```
 </p>
