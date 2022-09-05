@@ -76,7 +76,7 @@ nano setup.py
 ```ruby
 nano LICENSE
 ```  
-<strong> if your package internally depends on other packaeg e.g pandas/numpy then you can put there name in <i>install_requires</i> section of setup.py</strong>
+<strong> if your package internally depends on other package e.g pandas/numpy then you can put there name in <i>install_requires</i> section of setup.py</strong>
 ### Step10
 * run below 2 commands and enter your username and password of pypi.
 ```ruby
