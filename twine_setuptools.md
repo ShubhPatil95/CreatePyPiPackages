@@ -5,19 +5,19 @@
 ### Step1
 * Create a folders under name mypackages and move inside of it
 ```ruby
-mkdir mypackages
-cd mypackages
+mkdir CreatePyPiPackages
+cd CreatePyPiPackages
 ```
   
 ### Step2
 * Create a folders under mathpackage and move inside(NOTE: package name should be unique, hence make sure you are giving your unqiue name to this package. I am giving mathpackage, hence in further steps kind ensure to replace mathpackage with your package name)
 ```ruby
-mkdir mathpackage
-cd mathpackage
+mkdir mypackagearrithmatics
+cd mypackagearrithmatics
 ```
   
 ### Step3
-* Create a folders below files under mathpackage
+* Create a folders below files under mypackagearrithmatics
 ```ruby
 touch calculations.py __init__.py
 ```
@@ -33,7 +33,7 @@ def sub(a,b):
 ```
   
  ### Step5
-* go back to mypackages
+* go back to CreatePyPiPackages
 ```ruby
 cd .. 
 ```
@@ -45,7 +45,7 @@ nano check.py
 ```
   
 ```ruby
-from mathpackage import calculations
+from mypackagearrithmatics import calculations
 calculations.add(10,10)
 ```
   
