@@ -42,15 +42,19 @@ cd ..
 * create check.py(paste below code in it) to test if we can import modules
 ```ruby
 nano check.py
-_______
+```
+  
+```ruby
 from mathpackage import calculations
 calculations.add(10,10)
 ```
   
  ### Step7
-* run check.py and see if its printing 20, if printed 20 then delete check.py
+* run check.py and see if its printing "This is addition=> 20",then delete check.py
 ```ruby
 python3 check.py
+```
+ ```ruby
 rm check.py
 ```
  <strong> This is how we can create a module and package. Further we will see how to publish these packages</strong> <br>
@@ -68,8 +72,10 @@ python3 -m pip install --upgrade twine setuptools
 * create a setup.py and LICENSE by copying code from [here]  
 ```ruby
 nano setup.py
-nano LICENSE
 ```
+```ruby
+nano LICENSE
+```  
 ### Step10
 * run below 2 commands and enter your username and password of pypi.
 ```ruby
