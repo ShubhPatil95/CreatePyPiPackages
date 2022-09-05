@@ -10,7 +10,7 @@ cd CreatePyPiPackages
 ```
   
 ### Step2
-* Create a folders under mathpackage and move inside(NOTE: package name should be unique, hence make sure you are giving your unqiue name to this package. I am giving mathpackage, hence in further steps kind ensure to replace mathpackage with your package name)
+* Create a folders under mypackagearrithmatics and move inside(NOTE: package name should be unique, hence make sure you are giving your unqiue name to this package. I am giving mypackagearrithmatics, hence in further steps kind ensure to replace mypackagearrithmatics with your package name)
 ```ruby
 mkdir mypackagearrithmatics
 cd mypackagearrithmatics
@@ -39,7 +39,7 @@ cd ..
 ```
   
   ### Step6
-* create check.py(paste below code in it) to test if we can import modules
+* create [check.py](https://github.com/ShubhPatil95/CreatePyPiPackages/blob/main/mypackagemath/check.py) to test if we can import modules
 ```ruby
 nano check.py
 ```
@@ -69,7 +69,7 @@ python3 -m pip install --upgrade twine setuptools
 ```
   
 ### Step9
-* create a setup.py and LICENSE by copying code from [here]  
+* create a setup.py and LICENSE by copying code from [setup.py](https://github.com/ShubhPatil95/CreatePyPiPackages/blob/main/mypackagemath/setup.py) and [LICENSE](https://github.com/ShubhPatil95/CreatePyPiPackages/blob/main/mypackagemath/LICENSE). Make sure you are replacing details in setup.py with your details, also update your name replacing mine in LICENSE.
 ```ruby
 nano setup.py
 ```
@@ -83,9 +83,14 @@ python3 setup.py sdist bdist_wheel
 python3 -m twine upload dist/*
 ```
 ### Step10
-* Now you can install your package using pip and check if its working by creating check.py same as in step 6 and 7
+* Now you can install your package using pip
 ```ruby
-pip install mathpackage
-
+pip install mypackagearrithmatics
+```
+### Step11
+ * Type below line in python and see if you its printing "This is addition=> 40"
+```ruby
+from mypackagearrithmatics calculations
+calculations.add(20,20)
 ```
 </p>
