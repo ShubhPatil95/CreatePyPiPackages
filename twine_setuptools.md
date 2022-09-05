@@ -83,7 +83,7 @@ python3 setup.py sdist bdist_wheel
 python3 -m twine upload dist/*
 ```
 <strong> After executing above 2 commands, you will link in your terminal, which will direct you to official pypi page of your package as shown in below image</strong>
-<img src="pic_trulli.jpg" alt="mypackagearrithmatics image">
+<img src="https://github.com/ShubhPatil95/CreatePyPiPackages/blob/main/mypackagemath/mypackagearrithmatics.png" alt="mypackagearrithmatics image">
 ### Step10
 * Now you can install your package using pip
 ```ruby
