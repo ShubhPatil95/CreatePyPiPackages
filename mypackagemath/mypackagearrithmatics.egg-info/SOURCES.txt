@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+mypackagearrithmatics/__init__.py
+mypackagearrithmatics/calculations.py
+mypackagearrithmatics.egg-info/PKG-INFO
+mypackagearrithmatics.egg-info/SOURCES.txt
+mypackagearrithmatics.egg-info/dependency_links.txt
+mypackagearrithmatics.egg-info/top_level.txt

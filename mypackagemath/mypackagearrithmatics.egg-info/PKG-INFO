@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mypackagearrithmatics
+Version: 0.0.1
+Summary: package of arithmetic operations
+Author: Shubham
+Author-email: shubhamrpatil122@gmail.com
+Keywords: arithmetic,math,mathematics,python tutorial
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package perform arithmetic operations
